@@ -1,0 +1,79 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p.double {border-style: double;}
+* {
+  box-sizing: border-box;
+}
+img {
+  border-radius: 50%;
+}
+img:hover {
+   filter:blur(2px);
+}
+ #dive {
+    background: url(shutterstock_387456811-e1571653929984.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: powderblue;;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+</style>
